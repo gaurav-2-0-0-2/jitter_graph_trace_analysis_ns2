@@ -1,0 +1,9 @@
+set terminal png
+set xrange [0:600]
+set yrange [0:0.02]
+set xlabel 'sequence number'
+set ylabel 'jitter'
+set grid
+set style data lines
+set output 'Result7.png'
+plot 'jitter.dat'
